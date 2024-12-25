@@ -77,8 +77,6 @@ if st.button("Apply"):
         st.subheader("Beautified Wordle Result:")
         st.code(beautified_result, language="markdown")
 
-        # Copy to clipboard button
-        st.button("Copy to Clipboard")  # Add clipboard functionality with Pyperclip if desired
     else:
         st.error("Please paste your Wordle result to apply the beautifier!")
 
