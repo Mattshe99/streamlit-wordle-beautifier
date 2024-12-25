@@ -71,7 +71,7 @@ if st.button("Apply"):
             beautified_result = beautified_result.replace(original, replacement)
 
         # Append the footer
-        beautified_result += "\n\nMade with wordlebeautifier.streamlit.app"
+        beautified_result += "\n\nMade with wordlebeautify.streamlit.app"
 
         # Display the beautified result
         st.subheader("Beautified Wordle Result:")
